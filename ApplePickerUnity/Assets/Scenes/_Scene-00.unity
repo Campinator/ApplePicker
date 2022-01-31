@@ -268,8 +268,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 16
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -293,8 +293,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
-  m_LocalScale: {x: 1.0102, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -312,15 +312,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 452883768264669154, guid: 2298fe999177a2543b9ae7433dd99d0a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.51232
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 452883768264669154, guid: 2298fe999177a2543b9ae7433dd99d0a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.51232
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 452883768264669154, guid: 2298fe999177a2543b9ae7433dd99d0a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.51754564
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 452883768264669154, guid: 2298fe999177a2543b9ae7433dd99d0a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -362,9 +362,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 661835425129826727, guid: 2298fe999177a2543b9ae7433dd99d0a, type: 3}
+      propertyPath: m_Name
+      value: Leaves
+      objectReference: {fileID: 0}
+    - target: {fileID: 661835425129826727, guid: 2298fe999177a2543b9ae7433dd99d0a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3463504643026071321, guid: 2298fe999177a2543b9ae7433dd99d0a, type: 3}
       propertyPath: m_Name
       value: Apple Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 3463504643026071321, guid: 2298fe999177a2543b9ae7433dd99d0a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8111340474408535843, guid: 2298fe999177a2543b9ae7433dd99d0a, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8496665959469860335, guid: 2298fe999177a2543b9ae7433dd99d0a, type: 3}
+      propertyPath: m_Name
+      value: Trunk
+      objectReference: {fileID: 0}
+    - target: {fileID: 8496665959469860335, guid: 2298fe999177a2543b9ae7433dd99d0a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2298fe999177a2543b9ae7433dd99d0a, type: 3}
