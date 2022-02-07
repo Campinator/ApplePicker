@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 6395712038527027701}
   - component: {fileID: 8060731979673789403}
   - component: {fileID: 8001813234869076680}
-  m_Layer: 0
+  - component: {fileID: 1839753536429523839}
+  m_Layer: 8
   m_Name: Basket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2f5f8867c482141408546a23d5c66f91, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -95,3 +96,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1839753536429523839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2574114143220648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e6bb5682ad0ba34caeca2bc762131e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -2,8 +2,8 @@
  * Created By: Camp Steiner 
  * Date Created: Jan 31, 2022
  * 
- * Last Edited By: N/A
- * Last Edited: Jan 31, 2022
+ * Last Edited By: Camp Steiner
+ * Last Edited: Feb 7, 2022
  * 
  * Description: Controls the movement of the Apple Tree
  */
@@ -24,7 +24,12 @@ public class AppleTree : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        InvokeRepeating("DropApple", 2f, secondsBetweenAppleDrops);
+    }
+
+    void DropApple(){
+        GameObject apple = Instantiate(applePrefab) as GameObject;
+        apple.transform.position = transform.position;
     }
 
     // Update is called once per frame
